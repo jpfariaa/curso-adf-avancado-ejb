@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!--  $Header: jdevadf/modules/adf-viewcontroller-assembly/etc/weblogic.xml /main/5 2019/02/06 15:40:29 krajeswa Exp $ -->
+
+<!-- 
+ Copyright (c) 2017, 2019, Oracle and/or its affiliates. All rights reserved.
+
+   NAME
+     weblogic.xml - <one-line expansion of the name>
+
+   DESCRIPTION
+     <short description of component this file declares/defines>
+
+   NOTES
+     <other useful comments, qualifications, etc.>
+
+   MODIFIED   (MM/DD/YY)
+   dferry      10/11/17 - add owasp-java-html-sanitizer.jar
+   dferry      08/07/17 - correct the antlr lib reference to antlr-runtime
+   dferry      06/13/17 - code review comments
+   dferry      06/09/17 - stop copying 3rd party libs
+   dferry      06/09/17 - Creation
+
+-->
+<weblogic-web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bea.com/ns/weblogic/weblogic-web-app.xsd" xmlns="http://www.bea.com/ns/weblogic/weblogic-web-app">
+<library-ref>
+   <!-- antlr-runtime-3.4.jar -->
+   <library-name>adf.oracle.domain.webapp.antlr-runtime</library-name>
+</library-ref>
+<library-ref>
+   <!-- guava-20.0.jar -->
+   <library-name>adf.oracle.domain.webapp.guava</library-name>
+</library-ref>
+<library-ref>
+   <!-- xml-apis-ext.jar -->
+   <library-name>adf.oracle.domain.webapp.xml-apis-ext</library-name>
+</library-ref>
+<library-ref>
+   <!-- org.apache.http.components.httpclient-4.5.1.jar -->
+   <library-name>adf.oracle.domain.webapp.apache.httpclient</library-name>
+</library-ref>
+<library-ref>
+   <!-- org.apache.http.components.httpclient-cache-4.5.1.jar -->
+   <library-name>adf.oracle.domain.webapp.apache.httpclient-cache</library-name>
+</library-ref>
+<library-ref>
+   <!-- org.apache.http.components.httpcore-4.4.3.jar -->
+   <library-name>adf.oracle.domain.webapp.apache.httpcore</library-name>
+</library-ref>
+<library-ref>
+   <!-- org.apache.http.components.httpmime-4.5.1.jar -->
+   <library-name>adf.oracle.domain.webapp.apache.httpmime</library-name>
+</library-ref>
+<library-ref>
+   <!--velocity-1.4-dev.jar -->
+   <library-name>adf.oracle.domain.webapp.apache.velocity</library-name>
+</library-ref>
+<library-ref>
+  <!-- batik_bundle.jar	-->
+   <library-name>adf.oracle.domain.webapp.batik-bundle</library-name>
+</library-ref>
+</weblogic-web-app>
+

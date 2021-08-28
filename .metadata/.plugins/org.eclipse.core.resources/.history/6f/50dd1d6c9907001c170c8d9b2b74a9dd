@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<f:view>
+		<af:document title="page title" id="d1">
+			<af:form id="f1">
+				<af:decorativeBox theme="dark" topHeight="20%">
+					<f:facet name="top">
+						<af:panelGroupLayout halign="center" >
+							<f:facet name="separator">
+								<af:spacer width="15px"></af:spacer>
+							</f:facet>
+							<af:commandButton text="Salvar"></af:commandButton>
+							<af:commandButton text="Excluir"></af:commandButton>
+							<af:commandButton text="Alterar"></af:commandButton>
+						</af:panelGroupLayout>
+					</f:facet>
+					<f:facet name="center"></f:facet>
+				</af:decorativeBox>
+			</af:form>
+		</af:document>
+	</f:view>
+</jsp:root>

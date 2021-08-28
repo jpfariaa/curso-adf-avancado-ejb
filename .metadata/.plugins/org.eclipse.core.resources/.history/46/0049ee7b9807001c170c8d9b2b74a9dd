@@ -1,0 +1,8 @@
+package br.com.cursoadf.sessionbeans;
+
+import javax.ejb.Remote;
+
+@Remote
+public interface PacienteSessionBeanRemote {
+
+}

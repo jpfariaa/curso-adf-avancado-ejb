@@ -1,0 +1,2239 @@
+!SESSION 2021-08-27 19:42:26.811 -----------------------------------------------
+eclipse.buildId=4.8.0.I20180611-0500
+java.version=1.8.0_301
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\jpalm\workspace_ejb
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-08-27 19:42:28.889
+!MESSAGE Both 'oracle.eclipse.tools.adf.dtrt.vcommon' and 'oracle.eclipse.tools.adf.dtrt.vcommon' register an extension parser for 'xml'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2021-08-27 19:42:28.890
+!MESSAGE Both 'oracle.eclipse.tools.adf.dtrt.vcommon' and 'oracle.eclipse.tools.adf.dtrt.vcommon' register an extension parser for 'xml'
+
+!ENTRY org.eclipse.egit.core 2 0 2021-08-27 19:42:30.451
+!MESSAGE Builtin LFS support not present/detected
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.jgit.lfs.BuiltinLFS cannot be found by org.eclipse.egit.core_5.0.0.201806131550-r
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:508)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.eclipse.egit.core.Activator.registerBuiltinLFS(Activator.java:279)
+	at org.eclipse.egit.core.Activator.start(Activator.java:212)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.egit.ui.Activator$RepositoryChangeScanner.<init>(Activator.java:921)
+	at org.eclipse.egit.ui.Activator.setupRepoChangeScanner(Activator.java:1034)
+	at org.eclipse.egit.ui.Activator.start(Activator.java:336)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:779)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:772)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:729)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1002)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:354)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
+	at org.eclipse.osgi.container.Module.start(Module.java:449)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:468)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:114)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:505)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:328)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:392)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:470)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:419)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:411)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:150)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:609)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:177)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:931)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:60)
+	at org.eclipse.ui.internal.services.WorkbenchServiceRegistry.getSourceProviders(WorkbenchServiceRegistry.java:174)
+	at org.eclipse.ui.internal.services.SourceProviderService.readRegistry(SourceProviderService.java:104)
+	at org.eclipse.ui.internal.Workbench$34.runWithException(Workbench.java:2378)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:32)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4567)
+	at org.eclipse.ui.internal.StartupThreading.runWithoutExceptions(StartupThreading.java:95)
+	at org.eclipse.ui.internal.Workbench.initializeDefaultServices(Workbench.java:2373)
+	at org.eclipse.ui.internal.Workbench.init(Workbench.java:1654)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2859)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:597)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:656)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:592)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1498)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-27 19:42:36.790
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jpalm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-08-27 19:43:49.104
+!MESSAGE Connection to http://jope.ow2.org/update/jope/site.xml failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-08-27 19:43:49.337
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on jope.ow2.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:262)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:161)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 19:44:06.479
+!MESSAGE Started WebLogic Server Monitor [curso_adf@localhost:7001, Version:12.2.1.4.0]
+
+!ENTRY org.eclipse.jface.text 2 0 2021-08-27 20:28:22.470
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-08-27 20:28:50.751
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY oracle.eclipse.tools.weblogic 4 4000 2021-08-27 20:31:25.200
+!MESSAGE Either the server process could not be started or it terminated abruptly. Check the start script.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2021-08-27 20:31:30.141
+!MESSAGE Server Oracle WebLogic Server 12c R2 (12.2.1.4) [curso_adf] failed to start.
+
+!ENTRY oracle.eclipse.tools.weblogic 4 4000 2021-08-27 20:32:18.834
+!MESSAGE The user action is cancelled when the server is starting. The server cannot be stopped now. Please wait until the server is started and then stop it.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:32:31.292
+!MESSAGE Stopped WebLogic Server Monitor [curso_adf@localhost:7001, Version:12.2.1.4.0]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:32:49.071
+!MESSAGE Started WebLogic Server Monitor [curso_adf@localhost:7001, Version:12.2.1.4.0]
+
+!ENTRY oracle.eclipse.tools.weblogic 4 4000 2021-08-27 20:33:08.479
+!MESSAGE Either the server process could not be started or it terminated abruptly. Check the start script.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2021-08-27 20:33:13.269
+!MESSAGE Server Oracle WebLogic Server 12c R2 (12.2.1.4) [curso_adf] failed to start.
+
+!ENTRY oracle.eclipse.tools.weblogic 4 4000 2021-08-27 20:34:56.353
+!MESSAGE The user action is cancelled when the server is starting. The server cannot be stopped now. Please wait until the server is started and then stop it.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:35:02.977
+!MESSAGE Stopped WebLogic Server Monitor [curso_adf@localhost:7001, Version:12.2.1.4.0]
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.431
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.432
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.433
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.435
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.436
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.436
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.437
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.438
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.439
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.439
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.440
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.441
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaEEConfigurationPresetFactory.java:64)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.createPreset(BasicJpaEEConfigurationPresetFactory.java:53)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.441
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.441
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.442
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaEEConfigurationPresetFactory.java:64)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaEEConfigurationPresetFactory.createPreset(BasicJpaEEConfigurationPresetFactory.java:53)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.443
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaSEConfigurationPresetFactory.java:62)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.createPreset(BasicJpaSEConfigurationPresetFactory.java:51)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.444
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.444
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.findProjectFacetVersion(MinimalConfigurationPresetFactory.java:77)
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.createPreset(MinimalConfigurationPresetFactory.java:66)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.445
+!MESSAGE Failed while invoking preset factory "org.eclipse.jpt.jpa.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.findProjectFacetVersion(BasicJpaSEConfigurationPresetFactory.java:62)
+	at org.eclipse.jpt.jpa.core.internal.facet.BasicJpaSEConfigurationPresetFactory.createPreset(BasicJpaSEConfigurationPresetFactory.java:51)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.445
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.445
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.findProjectFacetVersion(MinimalConfigurationPresetFactory.java:77)
+	at org.eclipse.wst.common.project.facet.core.MinimalConfigurationPresetFactory.createPreset(MinimalConfigurationPresetFactory.java:66)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.446
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.446
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.447
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.447
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-27 20:36:29.449
+!MESSAGE Failed while invoking preset factory "org.eclipse.wst.common.project.facet.core".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.wst.common.project.facet.core.PresetDefinition.<init>(PresetDefinition.java:53)
+	at org.eclipse.wst.common.project.facet.core.DefaultConfigurationPresetFactory.createPreset(DefaultConfigurationPresetFactory.java:78)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$DynamicPreset.resolve(PresetsExtensionPoint.java:580)
+	at org.eclipse.wst.common.project.facet.core.internal.PresetsExtensionPoint$StaticExtendingDynamicPreset.resolve(PresetsExtensionPoint.java:505)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailablePresets(FacetedProjectWorkingCopy.java:973)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshAvailableFacets(FacetedProjectWorkingCopy.java:677)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy.refreshTargetableRuntimes(FacetedProjectWorkingCopy.java:1183)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProjectWorkingCopy$1.run(FacetedProjectWorkingCopy.java:219)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2021-08-27 20:37:12.441
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete '/ExemploEJBAPP/.settings'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings\org.eclipse.wst.common.project.facet.core.prefs.xml.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings\org.eclipse.wst.common.project.facet.core.prefs.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings.
+Contains: Could not delete '/ExemploEJBAPP/EarContent'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF\application.xml.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF\application.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent.
+Contains: Could not delete 'C:\Users\jpalm\workspace_ejb\ExemploEJBAPP'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-08-27 20:37:12.444
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete '/ExemploEJBAPP/.settings'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings\org.eclipse.wst.common.project.facet.core.prefs.xml.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings\org.eclipse.wst.common.project.facet.core.prefs.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-08-27 20:37:12.444
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:12.444
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings\org.eclipse.wst.common.project.facet.core.prefs.xml.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings\org.eclipse.wst.common.project.facet.core.prefs.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\.settings.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete '/ExemploEJBAPP/EarContent'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF\application.xml.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF\application.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-08-27 20:37:12.444
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:12.444
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF\application.xml.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF\application.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent\META-INF.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPP\EarContent.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-08-27 20:37:12.444
+!MESSAGE Could not delete 'C:\Users\jpalm\workspace_ejb\ExemploEJBAPP'.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2021-08-27 20:37:26.888
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete 'C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath'.
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:390)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:390)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete '/ExemploEJBAPPModel/.settings'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings\oracle.eclipse.tools.weblogic.syslib.xml.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings\oracle.eclipse.tools.weblogic.syslib.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings.
+Contains: Could not delete 'C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel'.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2021-08-27 20:37:26.890
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-08-27 20:37:26.890
+!MESSAGE Could not delete 'C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems encountered while deleting files.
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:139)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:390)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:390)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 3 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:26.890
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:26.890
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.classpath: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFile(ResourceTree.java:310)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:390)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-08-27 20:37:26.890
+!MESSAGE Could not delete '/ExemploEJBAPPModel/.settings'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:364)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings\oracle.eclipse.tools.weblogic.syslib.xml.
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings\oracle.eclipse.tools.weblogic.syslib.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2021-08-27 20:37:26.890
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:26.890
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:26.890
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings\oracle.eclipse.tools.weblogic.syslib.xml.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings\oracle.eclipse.tools.weblogic.syslib.xml: O arquivo já está sendo usado por outro processo.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:220)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:248)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.delete(LocalFile.java:137)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.delete(DeleteVisitor.java:63)
+	at org.eclipse.core.internal.localstore.DeleteVisitor.visit(DeleteVisitor.java:151)
+	at org.eclipse.core.internal.localstore.UnifiedTree.accept(UnifiedTree.java:110)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:361)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteProject(ResourceTree.java:393)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteProject(ResourceTree.java:850)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1772)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:749)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:319)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2289)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2316)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2021-08-27 20:37:26.890
+!MESSAGE Could not delete: C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel\.settings.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2021-08-27 20:37:26.890
+!MESSAGE Could not delete 'C:\Users\jpalm\workspace_ejb\ExemploEJBAPPModel'.
+
+!ENTRY org.eclipse.jpt.jpa.core 4 0 2021-08-27 20:37:27.927
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jpt.common.core.internal.resource.ModuleResourceLocator.getRootFolder(ModuleResourceLocator.java:85)
+	at org.eclipse.jpt.common.core.internal.resource.ModuleResourceLocator.getWorkspacePath(ModuleResourceLocator.java:37)
+	at org.eclipse.jpt.common.core.internal.resource.SimpleProjectResourceLocator.getWorkspacePath(SimpleProjectResourceLocator.java:50)
+	at org.eclipse.jpt.common.core.internal.resource.SimpleProjectResourceLocator.getPlatformFile(SimpleProjectResourceLocator.java:59)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.getPlatformFile(AbstractJpaProject.java:780)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.getResourceModel(AbstractJpaProject.java:807)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.getPersistenceXmlResource(AbstractJpaProject.java:787)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.resolvePersistenceXmlResource(GenericContextRoot.java:132)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.syncPersistenceXml(GenericContextRoot.java:115)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.updatePersistenceXml(GenericContextRoot.java:159)
+	at org.eclipse.jpt.jpa.core.internal.jpa1.context.GenericContextRoot.update(GenericContextRoot.java:78)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject.update(AbstractJpaProject.java:2012)
+	at org.eclipse.jpt.jpa.core.internal.AbstractJpaProject$UpdateJobCommand.execute(AbstractJpaProject.java:1996)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper.executeCommand(RepeatingJobCommandWrapper.java:211)
+	at org.eclipse.jpt.common.core.internal.utility.command.NotifyingRepeatingJobCommandWrapper.executeCommand(NotifyingRepeatingJobCommandWrapper.java:69)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper.execute_(RepeatingJobCommandWrapper.java:198)
+	at org.eclipse.jpt.common.core.internal.utility.command.RepeatingJobCommandWrapper$StartJobCommand.execute(RepeatingJobCommandWrapper.java:172)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager.execute_(InternalJpaProjectManager.java:1202)
+	at org.eclipse.jpt.jpa.core.internal.InternalJpaProjectManager$ClientJobCommandWrapper.execute(InternalJpaProjectManager.java:1182)
+	at org.eclipse.jpt.common.core.internal.utility.command.JobCommandJob.run(JobCommandJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 0 2021-08-27 20:38:23.668
+!MESSAGE Executing WLST script:
+if __name__ == '__main__': 
+    from wlstModule import *#@UnusedWildImport
+    
+import os
+
+beaHome="C:/Oracle/Middleware/Oracle_Home"
+wlHome="C:/Oracle/Middleware/Oracle_Home/wlserver"
+password= "welcome1"
+installJRF = "%INSTALL_JRF%"
+cfgGrpProfile = 'Compact'
+
+print "beaHome="+beaHome
+print "wlHome="+wlHome
+
+#===========================================================================
+# Open a domain template.
+#===========================================================================
+
+try:
+	readTemplate(wlHome + "/common/templates/wls/wls.jar", cfgGrpProfile)
+except:        
+    print 'Failed to read template '  + wlHome + "/common/templates/domains/wls.jar"
+    dumpStack()
+
+cd('Servers/AdminServer')
+set('ListenAddress','')
+set('ListenPort', 7001)
+
+create('AdminServer','SSL')
+cd('SSL/AdminServer')
+set('Enabled', 'True')
+set('ListenPort', 7002)
+
+#=======================================================================================
+# Define the user password for weblogic.
+#=======================================================================================
+print 'Setting WebLogic domain password'
+
+cd('/')
+cmo=cd('Security/base_domain/User/weblogic')
+# Please set password here before using this script, e.g. cmo.setPassword('value')
+cmo.setPassword( password )
+
+#===========================================================================
+# Set environment variables used by extension templates.
+#===========================================================================
+os.putenv('JDEV_HOME', beaHome + '/jdeveloper/')
+os.putenv('COMMON_COMPONENTS_HOME', beaHome + '/oracle_common/')
+os.putenv('DOMAIN_HOME', r'C:/Oracle/Middleware/Oracle_Home/user_projects/domains//adfAvancado_domain')
+
+
+#=======================================================================================
+# Add extension templates.
+#=======================================================================================
+addTemplate('C:/Oracle/Middleware/Oracle_Home/oracle_common/common/templates/wls/oracle.jrf_restricted_template.jar')
+
+
+#=======================================================================================
+# Write the domain and close the domain template.
+#=======================================================================================
+
+setOption('OverwriteDomain', 'true')
+
+print 'Saving WebLogic domain'
+writeDomain( r'C:/Oracle/Middleware/Oracle_Home/user_projects/domains//adfAvancado_domain' )
+closeTemplate()
+print "script returns SUCCESS"   
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 20:40:11.251
+!MESSAGE Creating WebLogic domain:
+if __name__ == '__main__': 
+    from wlstModule import *#@UnusedWildImport
+    
+import os
+
+beaHome="C:/Oracle/Middleware/Oracle_Home"
+wlHome="C:/Oracle/Middleware/Oracle_Home/wlserver"
+password= "welcome1"
+installJRF = "%INSTALL_JRF%"
+cfgGrpProfile = 'Compact'
+
+print "beaHome="+beaHome
+print "wlHome="+wlHome
+
+#===========================================================================
+# Open a domain template.
+#===========================================================================
+
+try:
+	readTemplate(wlHome + "/common/templates/wls/wls.jar", cfgGrpProfile)
+except:        
+    print 'Failed to read template '  + wlHome + "/common/templates/domains/wls.jar"
+    dumpStack()
+
+cd('Servers/AdminServer')
+set('ListenAddress','')
+set('ListenPort', 7001)
+
+create('AdminServer','SSL')
+cd('SSL/AdminServer')
+set('Enabled', 'True')
+set('ListenPort', 7002)
+
+#=======================================================================================
+# Define the user password for weblogic.
+#=======================================================================================
+print 'Setting WebLogic domain password'
+
+cd('/')
+cmo=cd('Security/base_domain/User/weblogic')
+# Please set password here before using this script, e.g. cmo.setPassword('value')
+cmo.setPassword( password )
+
+#===========================================================================
+# Set environment variables used by extension templates.
+#===========================================================================
+os.putenv('JDEV_HOME', beaHome + '/jdeveloper/')
+os.putenv('COMMON_COMPONENTS_HOME', beaHome + '/oracle_common/')
+os.putenv('DOMAIN_HOME', r'C:/Oracle/Middleware/Oracle_Home/user_projects/domains//adfAvancado_domain')
+
+
+#=======================================================================================
+# Add extension templates.
+#=======================================================================================
+addTemplate('C:/Oracle/Middleware/Oracle_Home/oracle_common/common/templates/wls/oracle.jrf_restricted_template.jar')
+
+
+#=======================================================================================
+# Write the domain and close the domain template.
+#=======================================================================================
+
+setOption('OverwriteDomain', 'true')
+
+print 'Saving WebLogic domain'
+writeDomain( r'C:/Oracle/Middleware/Oracle_Home/user_projects/domains//adfAvancado_domain' )
+closeTemplate()
+print "script returns SUCCESS"   
+
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:40:17.377
+!MESSAGE Started WebLogic Server Monitor [adfAvancado_domain@localhost:7001, Version:12.2.1.4.0]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:30.545
+!MESSAGE Server watcher[Oracle WebLogic Server 12c R2 (12.2.1.4) [adfAvancado_domain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:32.388
+!MESSAGE JMX Connection created to WebLogic Server @:[service:jmx:t3://localhost:7001/jndi/weblogic.management.mbeanservers.domainruntime]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:38.939
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:38.940
+!MESSAGE Elapsed time 6485ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:38.940
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 12c R2 (12.2.1.4) [adfAvancado_domain] t3://localhost:7001]@1453497863
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:39.247
+!MESSAGE Releasing deployment manager :[Oracle WebLogic Server 12c R2 (12.2.1.4) [adfAvancado_domain]]@1453497863
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:41.639
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:48:41.651
+!MESSAGE Total deleted modules: 0
+
+!ENTRY org.eclipse.jface.text 2 0 2021-08-27 20:49:41.435
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:39.362
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:39.363
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:41.799
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:41.800
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:43.045
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:43.045
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:43.815
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:43.815
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:44.786
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:44.786
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:45.272
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:45.274
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:45.428
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:45.428
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:53:57.070
+!MESSAGE JMX Connection created to WebLogic Server @:[service:jmx:t3://localhost:7001/jndi/weblogic.management.mbeanservers.domainruntime]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:04.551
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:04.559
+!MESSAGE Found new module:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:04.561
+!MESSAGE Found new module:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:04.563
+!MESSAGE Found new module:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:04.571
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:04.744
+!MESSAGE Module Status: -ExemploEJBAPP (add) (deploy)
+--ExemploEJBAPPWeb (add)
+---ExemploEJBAPPModel (add)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:08.441
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:08.442
+!MESSAGE Elapsed time 3694ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:08.442
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 12c R2 (12.2.1.4) [adfAvancado_domain] t3://localhost:7001]@358086310
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:08.607
+!MESSAGE ***dm.deploy (deploy) ExemploEJBAPP to targets [AdminServer/server]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:08.607
+!MESSAGE Deploy application to server with option:-target [AdminServer/server]
+-source C:\Users\jpalm\workspace_ejb\.metadata\.plugins\org.eclipse.core.resources\.projects\ExemploEJBAPP\beadep\adfAvancado_domain\ExemploEJBAPP
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:10.692
+!MESSAGE Waiting on ProgressObject:@955829697
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:30.466
+!MESSAGE ProgressObject completed :@955829697
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:30.467
+!MESSAGE ExemploEJBAPP deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:30.467
+!MESSAGE Module ExemploEJBAPP deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:54:30.469
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:55:59.990
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:55:59.997
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:55:59.998
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:55:59.999
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:00.000
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:00.074
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:00.075
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 20:56:00.099
+!MESSAGE Application ExemploEJBAPP not configured for FastSwap.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:00.105
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:00.122
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:00.122
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:00.993
+!MESSAGE Waiting on ProgressObject:@2120633968
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:08.414
+!MESSAGE ProgressObject completed :@2120633968
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:56:08.415
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.267
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.273
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.275
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.276
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.276
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.337
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.338
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 20:57:18.356
+!MESSAGE Application ExemploEJBAPP not configured for FastSwap.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.364
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.375
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:18.376
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:19.194
+!MESSAGE Waiting on ProgressObject:@1737774427
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:26.768
+!MESSAGE ProgressObject completed :@1737774427
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:57:26.770
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.810
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.821
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.822
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.823
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.825
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.903
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.903
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.904
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.921
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.935
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:51.936
+!MESSAGE Deploy application to server with option:-target [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+-source C:\Users\jpalm\workspace_ejb\.metadata\.plugins\org.eclipse.core.resources\.projects\ExemploEJBAPP\beadep\adfAvancado_domain\ExemploEJBAPP
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 20:59:53.124
+!MESSAGE Waiting on ProgressObject:@2147283220
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:04.947
+!MESSAGE ProgressObject completed :@2147283220
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:04.949
+!MESSAGE ***dm.start (startModule) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:06.552
+!MESSAGE Waiting on ProgressObject:@743713210
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:06.849
+!MESSAGE ProgressObject completed :@743713210
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:06.850
+!MESSAGE Started ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:06.851
+!MESSAGE ExemploEJBAPP redeployed successfully on [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:06.853
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.081
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.097
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.098
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.099
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.101
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.172
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.173
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb
+---ExemploEJBAPPModel (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.186
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.202
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:33.203
+!MESSAGE Deploy application to server with option:-target [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+-source C:\Users\jpalm\workspace_ejb\.metadata\.plugins\org.eclipse.core.resources\.projects\ExemploEJBAPP\beadep\adfAvancado_domain\ExemploEJBAPP
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:34.408
+!MESSAGE Waiting on ProgressObject:@1591015939
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:45.652
+!MESSAGE ProgressObject completed :@1591015939
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:45.654
+!MESSAGE ***dm.start (startModule) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:46.663
+!MESSAGE Waiting on ProgressObject:@398284806
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:46.790
+!MESSAGE ProgressObject completed :@398284806
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:46.791
+!MESSAGE Started ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:46.792
+!MESSAGE ExemploEJBAPP redeployed successfully on [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:00:46.792
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.167
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.176
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.177
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.178
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.178
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.244
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.244
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.252
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.268
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:21.268
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:22.651
+!MESSAGE Waiting on ProgressObject:@1673357320
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:30.346
+!MESSAGE ProgressObject completed :@1673357320
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:06:30.348
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:07:35.836
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:07:35.845
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:07:35.845
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:07:35.846
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:07:35.846
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.247
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.249
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.250
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.250
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.250
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.320
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.320
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 21:08:37.341
+!MESSAGE Application ExemploEJBAPP not configured for FastSwap.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.347
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.357
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:37.357
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:38.226
+!MESSAGE Waiting on ProgressObject:@1657269283
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:45.610
+!MESSAGE ProgressObject completed :@1657269283
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:08:45.614
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.659
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.679
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.682
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.683
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.687
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.880
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.881
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.882
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.919
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.962
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:33.963
+!MESSAGE Deploy application to server with option:-target [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+-source C:\Users\jpalm\workspace_ejb\.metadata\.plugins\org.eclipse.core.resources\.projects\ExemploEJBAPP\beadep\adfAvancado_domain\ExemploEJBAPP
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:38.069
+!MESSAGE Waiting on ProgressObject:@476301090
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:58.982
+!MESSAGE ProgressObject completed :@476301090
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:21:58.985
+!MESSAGE ***dm.start (startModule) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:22:01.780
+!MESSAGE Waiting on ProgressObject:@1137544074
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:22:02.002
+!MESSAGE ProgressObject completed :@1137544074
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:22:02.003
+!MESSAGE Started ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:22:02.006
+!MESSAGE ExemploEJBAPP redeployed successfully on [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:22:02.007
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:08.947
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:08.967
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:08.968
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:08.969
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:08.970
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:09.123
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:09.124
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 21:24:09.162
+!MESSAGE Application ExemploEJBAPP not configured for FastSwap.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:09.170
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:09.193
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:09.195
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:10.899
+!MESSAGE Waiting on ProgressObject:@625910435
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:24.684
+!MESSAGE ProgressObject completed :@625910435
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:24:24.687
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.jface 2 0 2021-08-27 21:25:13.297
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-27 21:25:13.297
+!MESSAGE A conflict occurred for CTRL+F5:
+Binding(CTRL+F5,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.StepIntoSelection,Step Into Selection,
+		Step into the current selected statement,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79bc3ca5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+F5,
+	ParameterizedCommand(Command(org.eclipse.ui.part.nextPage,Next Page,
+		Switch to the next page,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14827d6b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jst.pagedesigner.editorContext,,,system)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.724
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.732
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.733
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.734
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.735
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.812
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.813
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 21:26:15.825
+!MESSAGE Application ExemploEJBAPP not configured for FastSwap.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.832
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.843
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:15.844
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:16.964
+!MESSAGE Waiting on ProgressObject:@1101792386
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:26.826
+!MESSAGE ProgressObject completed :@1101792386
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:26:26.829
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.jface.text 2 0 2021-08-27 21:42:52.088
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-08-27 21:42:52.520
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-08-27 21:45:05.553
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2021-08-27 21:45:05.576
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.623
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.631
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.632
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.633
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.633
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.718
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.719
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.719
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.728
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.768
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:54.768
+!MESSAGE Deploy application to server with option:-target [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+-source C:\Users\jpalm\workspace_ejb\.metadata\.plugins\org.eclipse.core.resources\.projects\ExemploEJBAPP\beadep\adfAvancado_domain\ExemploEJBAPP
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:47:56.395
+!MESSAGE Waiting on ProgressObject:@1310069485
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:48:07.472
+!MESSAGE ProgressObject completed :@1310069485
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:48:07.473
+!MESSAGE ***dm.start (startModule) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:48:09.036
+!MESSAGE Waiting on ProgressObject:@855340607
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:48:09.101
+!MESSAGE ProgressObject completed :@855340607
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:48:09.101
+!MESSAGE Started ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:48:09.102
+!MESSAGE ExemploEJBAPP redeployed successfully on [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 21:48:09.104
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.808
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.816
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.817
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.817
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.817
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.899
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.900
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 22:02:03.914
+!MESSAGE Application ExemploEJBAPP not configured for FastSwap.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.919
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.933
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:03.933
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:05.405
+!MESSAGE Waiting on ProgressObject:@442448410
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:14.830
+!MESSAGE ProgressObject completed :@442448410
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:02:14.832
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:10.983
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.042
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.043
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.044
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.045
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.131
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.132
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb
+---ExemploEJBAPPModel (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.138
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.149
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:11.150
+!MESSAGE Deploy application to server with option:-target [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+-source C:\Users\jpalm\workspace_ejb\.metadata\.plugins\org.eclipse.core.resources\.projects\ExemploEJBAPP\beadep\adfAvancado_domain\ExemploEJBAPP
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:12.068
+!MESSAGE Waiting on ProgressObject:@2138249608
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:25.365
+!MESSAGE ProgressObject completed :@2138249608
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:25.367
+!MESSAGE ***dm.start (startModule) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:26.212
+!MESSAGE Waiting on ProgressObject:@124293233
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:26.269
+!MESSAGE ProgressObject completed :@124293233
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:26.269
+!MESSAGE Started ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:26.270
+!MESSAGE ExemploEJBAPP redeployed successfully on [{Target=AdminServer, WebLogicTargetType=server, Name=ExemploEJBAPP}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:10:26.271
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.098
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.104
+!MESSAGE Module not changed:[ExemploEJBAPP]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.105
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.105
+!MESSAGE Module not changed:[ExemploEJBAPP,ExemploEJBAPPModel]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.106
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.180
+!MESSAGE Module changed:[ExemploEJBAPP,ExemploEJBAPPWeb]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.180
+!MESSAGE Module Status: -ExemploEJBAPP
+--ExemploEJBAPPWeb (change) (redeploy)
+---ExemploEJBAPPModel
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 1 2021-08-27 22:14:15.189
+!MESSAGE Application ExemploEJBAPP not configured for FastSwap.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.197
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPP
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.207
+!MESSAGE ***dm.createTargetModuleID (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:15.207
+!MESSAGE ***dm.redeploy (redeploy) ExemploEJBAPPWeb
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:16.083
+!MESSAGE Waiting on ProgressObject:@1014406116
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:26.658
+!MESSAGE ProgressObject completed :@1014406116
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2021-08-27 22:14:26.659
+!MESSAGE Publishing finished.

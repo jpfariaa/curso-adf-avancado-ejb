@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+
+	<f:view>
+		<f:loadBundle basename="resources.application" var="msg" />
+		<af:document title="Página de cadastrar paciente">
+			<af:form>
+				<af:panelFormLayout>
+					<af:inputText label="Nome do Paciente: " value="#{}"></af:inputText>
+					<af:inputText label="CPF do Paciente: " value="#{}"></af:inputText>
+					<f:facet name="footer">
+						<af:panelGroupLayout>
+							<f:facet name="separator">
+								<af:spacer width="15px"></af:spacer>
+							</f:facet>
+							<af:commandButton text="Salvar" action="#{olaMundo.digaOla}"></af:commandButton>
+						</af:panelGroupLayout>
+					</f:facet>
+				</af:panelFormLayout>
+			</af:form>
+		</af:document>
+	</f:view>
+</jsp:root>

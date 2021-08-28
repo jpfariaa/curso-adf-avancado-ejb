@@ -1,0 +1,38 @@
+<root>
+  <facet id="jst.jsf">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="2.1" value="wls-system-library-provider-jsf-2.2"/>
+        <attribute name="2.2" value="wls-system-library-provider-jsf-2.2"/>
+      </node>
+    </node>
+  </facet>
+  <facet id="jpt.jpa">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="2.1" value="wls-system-library-provider-eclipselink-1221"/>
+      </node>
+    </node>
+  </facet>
+  <facet id="jst.jstl">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="1.2" value="wls-shared-library-provider-jstl-1.2"/>
+      </node>
+    </node>
+  </facet>
+  <facet id="oracle.adf.web">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="12.2.1" value="wls-shared-library-provider-adf-web-11.1.1"/>
+      </node>
+    </node>
+  </facet>
+  <facet id="oracle.adf.ear">
+    <node name="libprov">
+      <node name="last-provider-used">
+        <attribute name="12.2.1" value="no-op-library-provider-adf-ear-11.1.1"/>
+      </node>
+    </node>
+  </facet>
+</root>

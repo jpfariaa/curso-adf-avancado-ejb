@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adfc-config
+    xmlns="http://xmlns.oracle.com/adf/controller"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.oracle.com/adf/controller http://xmlns.oracle.com/adf/controller/adfc-config_1_0.xsd"
+    version="1.2">
+    <view id="cadastro-paciente-view">
+        <page>/cadastro-paciente-view.jspx</page>
+    </view>
+    <control-flow-rule>
+        <from-activity-id>*</from-activity-id>
+        <control-flow-case>
+            <from-outcome>cadastrar-paciente</from-outcome>
+            <to-activity-id>cadastro-paciente-view</to-activity-id>
+        </control-flow-case>
+    </control-flow-rule>
+</adfc-config>

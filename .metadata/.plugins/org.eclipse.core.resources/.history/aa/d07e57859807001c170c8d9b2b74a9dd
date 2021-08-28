@@ -1,0 +1,25 @@
+package br.com.cursoadf.sessionbean;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateless;
+
+/**
+ * Session Bean implementation class PacienteSessionBean
+ */
+@Stateless
+@LocalBean
+public class PacienteSessionBean implements PacienteSessionBeanRemote, PacienteSessionBeanLocal {
+
+	/**
+	 * Default constructor.
+	 */
+	public PacienteSessionBean() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String cadastrarPaciente(String nome, String cpf) {
+		return "Paciente: \n" + nome + "\n" + cpf;
+	}
+
+}

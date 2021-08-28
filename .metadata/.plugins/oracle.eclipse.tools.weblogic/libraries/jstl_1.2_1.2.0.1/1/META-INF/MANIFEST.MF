@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: JavaServer Pages Standard Tag Library (JSTL)
+Specification-Version: 1.2
+Implementation-Title: JSTL Reference Implementation
+Implementation-Version: 1.2.0.1
+Implementation-Vendor: Sun Microsystems, Inc.
+Extension-Name: jstl
+

@@ -1,0 +1,8 @@
+package br.com.cursoadf.sessionbeans;
+
+import javax.ejb.Local;
+
+@Local
+public interface PacienteSessionBeanLocal {
+
+}

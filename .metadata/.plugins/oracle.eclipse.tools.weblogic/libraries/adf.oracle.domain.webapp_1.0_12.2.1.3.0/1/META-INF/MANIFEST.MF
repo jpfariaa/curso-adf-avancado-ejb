@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0RC1
+Created-By: 25.211-b12 (Oracle Corporation)
+Built-By: ADF
+Extension-Name: adf.oracle.domain.webapp
+Implementation-Vendor: Oracle USA, Inc.
+Implementation-Title: ADF Webapp Libraries
+Specification-Version: 1.0
+Implementation-Version: 12.2.1.3.0
+

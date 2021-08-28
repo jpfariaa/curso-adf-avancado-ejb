@@ -1,0 +1,19 @@
+package br.com.curso.managedbeans;
+
+import javax.ejb.EJB;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+
+import br.com.cursoadf.sessionbean.OlaMundoSessionBeanLocal;
+
+@ManagedBean(name = "olaMundo")
+@RequestScoped
+public class OlaMundoBean {
+	
+	@EJB
+	private OlaMundoSessionBeanLocal sessionBean;
+	
+	public String digaOla() {
+		return null;
+	}
+}

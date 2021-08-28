@@ -1,0 +1,48 @@
+package br.com.curso.managedbeans;
+
+import javax.ejb.EJB;
+import javax.faces.application.FacesMessage;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
+import javax.faces.context.FacesContext;
+
+import br.com.cursoadf.sessionbeans.PacienteSessionBeanLocal;
+
+@ManagedBean(name = "pacienteBean")
+@RequestScoped
+public class PacienteBean {
+
+	private String nome;
+	private String cpf;
+
+	@EJB
+	private PacienteSessionBeanLocal paciente;
+
+	public String cadastrar() {
+		String msg = paciente.cadastrarPaciente(nome, cpf);
+		FacesMessage fmsg = new FacesMessage(msg);
+		FacesContext.getCurrentInstance().addMessage(null, fmsg);
+		return null;
+	}
+	
+	public void limpar() {
+		setCpf("");
+		setNome("");
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+}

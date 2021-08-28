@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram-geometry>
+    <grid>
+        <visible>true</visible>
+    </grid>
+    <node>
+        <id>view#cadastro-paciente-view#0</id>
+        <bounds x="200" y="20"/>
+    </node>
+    <node>
+        <id>wildCardRule#*#0</id>
+        <bounds x="380" y="158"/>
+    </node>
+</diagram-geometry>
